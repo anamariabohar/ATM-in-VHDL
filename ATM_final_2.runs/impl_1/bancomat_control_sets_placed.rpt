@@ -1,0 +1,97 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Mon May 14 08:04:21 2018
+| Host         : DESKTOP-1DCE4I1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file bancomat_control_sets_placed.rpt
+| Design       : bancomat
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    31 |
+| Unused register locations in slices containing registers |   130 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             146 |           52 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              33 |           14 |
+| Yes          | No                    | No                     |              35 |           11 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+----------------------+---------------------+------------------+----------------+
+|         Clock Signal         |     Enable Signal    |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
++------------------------------+----------------------+---------------------+------------------+----------------+
+|  C1/OP3_OBUF                 |                      | C1/C1/ram_reg[2][9] |                1 |              1 |
+|  C1/OP4_OBUF                 |                      |                     |                1 |              1 |
+|  C1/corect_reg_i_2_n_0       |                      |                     |                1 |              1 |
+|  C1/C1/OP2_OBUF              |                      | C1/C1/ram_reg[2][9] |                1 |              1 |
+|  C4/E[0]                     |                      | D5/ram_reg[0][3][0] |                1 |              4 |
+|  C1/OP3_OBUF                 |                      |                     |                3 |              4 |
+|  C1/a_reg[3]_i_1_n_0         |                      |                     |                1 |              4 |
+|  C1/E[0]                     |                      |                     |                1 |              4 |
+|  C1/C1/OP2_OBUF              |                      |                     |                1 |              4 |
+|  C1/C1/ram[1]_0              |                      |                     |                2 |              4 |
+|  C1/C1/ram[2]_1              |                      |                     |                2 |              4 |
+|  C1/C1/ram[3]_2              |                      |                     |                1 |              4 |
+|  C1/C1/ram[4]_3              |                      |                     |                2 |              4 |
+|  C1/C1/ram[5]_4              |                      |                     |                1 |              4 |
+|  C1/C1/ram[6]_5              |                      |                     |                2 |              4 |
+|  C1/C1/ram[7]_6              |                      |                     |                2 |              4 |
+|  C1/C1/ram_reg[0][3]_i_1_n_0 |                      |                     |                2 |              4 |
+|  c7/C1/E[0]                  |                      | D5/AR[0]            |                2 |              4 |
+|  D1/E[0]                     |                      | D5/AR[0]            |                1 |              4 |
+|  D1/ram_reg[1][3][0]         |                      | D5/ram_reg[0][3][0] |                1 |              4 |
+|  D3/ram_reg[2][3][0]         |                      | D5/ram_reg[0][3][0] |                1 |              4 |
+|  D3/ram_reg[2][3]_0[0]       |                      | D5/AR[0]            |                2 |              4 |
+|  clk_IBUF_BUFG               | D1/eqOp              |                     |                2 |              5 |
+|  C1/ram_reg[2][9]_0[0]       |                      | C1/AR[0]            |                4 |              7 |
+|  c7/C2/E[0]                  |                      |                     |                3 |             10 |
+|  C5/C2/E[0]                  |                      |                     |                3 |             10 |
+|  D4/extrag_depun             | C1/ram_enable        |                     |                3 |             12 |
+|  leqOp                       |                      |                     |                6 |             20 |
+|  clk_IBUF_BUFG               |                      |                     |                8 |             26 |
+|  depun_BUFG                  | ram_enable1_out_BUFG |                     |                9 |             30 |
+|  ram_enable1_out_BUFG        |                      |                     |               10 |             30 |
++------------------------------+----------------------+---------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     4 |
+| 4      |                    18 |
+| 5      |                     1 |
+| 7      |                     1 |
+| 10     |                     2 |
+| 12     |                     1 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+

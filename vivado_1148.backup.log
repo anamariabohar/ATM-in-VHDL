@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon May 14 00:10:11 2018
+# Process ID: 1148
+# Current directory: C:/Users/Bohar Anamaria/Desktop/ATM_final_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11672 C:\Users\Bohar Anamaria\Desktop\ATM_final_2\ATM_final_2.xpr
+# Log file: C:/Users/Bohar Anamaria/Desktop/ATM_final_2/vivado.log
+# Journal file: C:/Users/Bohar Anamaria/Desktop/ATM_final_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Simion/Desktop/ATM_final_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 764.438 ; gain = 118.453
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 14 00:43:14 2018...

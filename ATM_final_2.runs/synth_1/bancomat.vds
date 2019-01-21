@@ -1,0 +1,526 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon May 14 08:03:04 2018
+# Process ID: 6512
+# Current directory: C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.runs/synth_1
+# Command line: vivado.exe -log bancomat.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bancomat.tcl
+# Log file: C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.runs/synth_1/bancomat.vds
+# Journal file: C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bancomat.tcl -notrace
+Command: synth_design -top bancomat -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6952 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 282.160 ; gain = 72.500
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'bancomat' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:46]
+WARNING: [Synth 8-614] signal 'Pass' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:165]
+WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:165]
+WARNING: [Synth 8-614] signal 'oper2' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:165]
+WARNING: [Synth 8-614] signal 'oper3' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:165]
+WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:185]
+WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:199]
+WARNING: [Synth 8-614] signal 'suma_dorita' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:199]
+WARNING: [Synth 8-614] signal 'suma_dorita_depunere' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:199]
+WARNING: [Synth 8-614] signal 'bani' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:199]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:6' bound to instance 'D1' of component 'debouncer' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (1#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:14]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:6' bound to instance 'D2' of component 'debouncer' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:230]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:6' bound to instance 'D3' of component 'debouncer' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:231]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:6' bound to instance 'D4' of component 'debouncer' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:232]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/debouncer.vhd:6' bound to instance 'D5' of component 'debouncer' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:233]
+INFO: [Synth 8-3491] module 'pin_check_and_change' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:5' bound to instance 'C1' of component 'pin_check_and_change' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'pin_check_and_change' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:19]
+INFO: [Synth 8-3491] module 'ram_pin' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:5' bound to instance 'C1' of component 'ram_pin' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'ram_pin' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:15]
+WARNING: [Synth 8-614] signal 'pin_in' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:27]
+WARNING: [Synth 8-614] signal 'ram' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'ram_pin' (2#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:15]
+WARNING: [Synth 8-614] signal 'Pin' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:49]
+WARNING: [Synth 8-614] signal 'b' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'pin_check_and_change' (3#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:19]
+INFO: [Synth 8-3491] module 'oper_select' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:4' bound to instance 'C2' of component 'oper_select' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'oper_select' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'oper_select' (4#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:9]
+INFO: [Synth 8-3491] module 'ram_utilizator' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_utilizator.vhd:5' bound to instance 'C3' of component 'ram_utilizator' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:261]
+INFO: [Synth 8-638] synthesizing module 'ram_utilizator' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_utilizator.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'ram_utilizator' (5#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_utilizator.vhd:14]
+INFO: [Synth 8-3491] module 'ram_bancomat' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:5' bound to instance 'C4' of component 'ram_bancomat' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:262]
+INFO: [Synth 8-638] synthesizing module 'ram_bancomat' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:14]
+WARNING: [Synth 8-614] signal 'ram' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'ram_bancomat' (6#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:14]
+INFO: [Synth 8-3491] module 'extragere' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:8' bound to instance 'C5' of component 'extragere' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'extragere' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:27]
+INFO: [Synth 8-3491] module 'intrare_cifra' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/intrare_cifra.vhd:7' bound to instance 'C1' of component 'intrare_cifra' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'intrare_cifra' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/intrare_cifra.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'intrare_cifra' (7#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/intrare_cifra.vhd:15]
+INFO: [Synth 8-3491] module 'formare_numar_extragere' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:7' bound to instance 'C2' of component 'formare_numar_extragere' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'formare_numar_extragere' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:23]
+WARNING: [Synth 8-614] signal 'cifra' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:26]
+WARNING: [Synth 8-614] signal 'b_100' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:26]
+WARNING: [Synth 8-614] signal 'b_10' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:26]
+WARNING: [Synth 8-614] signal 'b_1' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'formare_numar_extragere' (8#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:23]
+INFO: [Synth 8-3491] module 'convertor_zecimal_binar' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/convertor_zecimal_binar.vhd:8' bound to instance 'C3' of component 'convertor_zecimal_binar' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'convertor_zecimal_binar' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/convertor_zecimal_binar.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'convertor_zecimal_binar' (9#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/convertor_zecimal_binar.vhd:17]
+WARNING: [Synth 8-614] signal 'suma_existenta' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+WARNING: [Synth 8-614] signal 'unitati' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+WARNING: [Synth 8-614] signal 'b_1' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+WARNING: [Synth 8-614] signal 'b_10' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+WARNING: [Synth 8-614] signal 'zeci' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+WARNING: [Synth 8-614] signal 'b_100' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+WARNING: [Synth 8-614] signal 'sute' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'extragere' (10#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:27]
+INFO: [Synth 8-3491] module 'afisor' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:7' bound to instance 'c6' of component 'afisor' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'afisor' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:15]
+WARNING: [Synth 8-614] signal 'thousands' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:72]
+WARNING: [Synth 8-614] signal 'hundreds' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:72]
+WARNING: [Synth 8-614] signal 'tens' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:72]
+WARNING: [Synth 8-614] signal 'ones' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'afisor' (11#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/afisor.vhd:15]
+INFO: [Synth 8-3491] module 'depunere' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:8' bound to instance 'c7' of component 'depunere' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:270]
+INFO: [Synth 8-638] synthesizing module 'depunere' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:25]
+INFO: [Synth 8-3491] module 'intrare_cifra' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/intrare_cifra.vhd:7' bound to instance 'C1' of component 'intrare_cifra' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:65]
+INFO: [Synth 8-3491] module 'formare_numar' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:7' bound to instance 'C2' of component 'formare_numar' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'formare_numar' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:22]
+WARNING: [Synth 8-614] signal 'cifra' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'formare_numar' (12#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:22]
+INFO: [Synth 8-3491] module 'convertor_zecimal_binar' declared at 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/convertor_zecimal_binar.vhd:8' bound to instance 'C3' of component 'convertor_zecimal_binar' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:67]
+WARNING: [Synth 8-614] signal 'suma_existenta' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+WARNING: [Synth 8-614] signal 'unitati' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+WARNING: [Synth 8-614] signal 'b_1' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+WARNING: [Synth 8-614] signal 'b_10' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+WARNING: [Synth 8-614] signal 'zeci' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+WARNING: [Synth 8-614] signal 'b_100' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+WARNING: [Synth 8-614] signal 'sute' is read in the process but is not in the sensitivity list [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'depunere' (13#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'bancomat' (14#1) [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:46]
+WARNING: [Synth 8-3331] design extragere has unconnected port clk
+WARNING: [Synth 8-3331] design ram_bancomat has unconnected port write_enable
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[3]
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[2]
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[1]
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 320.527 ; gain = 110.867
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 320.527 ; gain = 110.867
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'chitanta'. [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'chitanta'. [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/constrs_1/imports/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bancomat_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bancomat_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 619.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 619.137 ; gain = 409.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 619.137 ; gain = 409.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 619.137 ; gain = 409.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "ram_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_reg[7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cifra_bin" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "unitati" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "unitati" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'pin_out_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:33]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[0]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[1]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[2]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[3]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[4]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[5]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[6]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[7]' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_pin.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'corect_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:53]
+WARNING: [Synth 8-327] inferring latch for variable 'change_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:38]
+WARNING: [Synth 8-327] inferring latch for variable 'a_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/pin_check_and_change.vhd:37]
+WARNING: [Synth 8-327] inferring latch for variable 'b_1_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'b_10_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:42]
+WARNING: [Synth 8-327] inferring latch for variable 'b_100_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/ram_bancomat.vhd:43]
+WARNING: [Synth 8-327] inferring latch for variable 'cifra_bin_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/intrare_cifra.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'sute_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:31]
+WARNING: [Synth 8-327] inferring latch for variable 'zeci_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:36]
+WARNING: [Synth 8-327] inferring latch for variable 'unitati_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar_extragere.vhd:43]
+WARNING: [Synth 8-327] inferring latch for variable 'br_1_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:85]
+WARNING: [Synth 8-327] inferring latch for variable 'br_10_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:87]
+WARNING: [Synth 8-327] inferring latch for variable 'br_100_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/extragere.vhd:88]
+WARNING: [Synth 8-327] inferring latch for variable 'sute_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:29]
+WARNING: [Synth 8-327] inferring latch for variable 'zeci_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:34]
+WARNING: [Synth 8-327] inferring latch for variable 'unitati_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/formare_numar.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'br_1_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/depunere.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 'cont_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:170]
+WARNING: [Synth 8-327] inferring latch for variable 'Pin_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:171]
+WARNING: [Synth 8-327] inferring latch for variable 'Pin_nou_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:189]
+WARNING: [Synth 8-327] inferring latch for variable 'extrag_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:210]
+WARNING: [Synth 8-327] inferring latch for variable 'afisare_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:211]
+WARNING: [Synth 8-327] inferring latch for variable 'depun_reg' [C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.srcs/sources_1/imports/new/bancomat.vhd:213]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 619.137 ; gain = 409.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 7     
+	   3 Input     10 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 26    
++---Registers : 
+	               10 Bit    Registers := 3     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 5     
+	   2 Input     10 Bit        Muxes := 3     
+	  11 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 19    
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module bancomat 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module ram_pin 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module ram_utilizator 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module ram_bancomat 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               10 Bit    Registers := 3     
+Module intrare_cifra 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      4 Bit        Muxes := 1     
+Module formare_numar_extragere 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module extragere 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input     10 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module afisor 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 26    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 18    
+	   4 Input      4 Bit        Muxes := 2     
+Module formare_numar 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module depunere 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "C5/C1/cifra_bin" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[3]
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[2]
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[1]
+WARNING: [Synth 8-3331] design bancomat has unconnected port sw[0]
+WARNING: [Synth 8-3332] Sequential element (C1/C1/pin_out_reg[3]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (C1/C1/pin_out_reg[2]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (C1/C1/pin_out_reg[1]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (C1/C1/pin_out_reg[0]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[11]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[10]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[9]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[8]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[7]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[6]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[5]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[4]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[3]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[2]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[1]) is unused and will be removed from module bancomat.
+WARNING: [Synth 8-3332] Sequential element (afisare_reg[0]) is unused and will be removed from module bancomat.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 619.137 ; gain = 409.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives      | 
++------------+------------+-----------+----------------------+-----------------+
+|bancomat    | C3/ram_reg | Implied   | 8 x 12               | RAM16X1S x 12   | 
++------------+------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 628.852 ; gain = 419.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     3|
+|2     |CARRY4   |    53|
+|3     |LUT1     |    69|
+|4     |LUT2     |    60|
+|5     |LUT3     |    16|
+|6     |LUT4     |    65|
+|7     |LUT5     |    72|
+|8     |LUT6     |   114|
+|9     |MUXF7    |     3|
+|10    |RAM16X1S |    12|
+|11    |FDRE     |    61|
+|12    |LD       |   120|
+|13    |LDC      |    33|
+|14    |IBUF     |    18|
+|15    |OBUF     |    18|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------+--------------------------+------+
+|      |Instance |Module                    |Cells |
++------+---------+--------------------------+------+
+|1     |top      |                          |   717|
+|2     |  C1     |pin_check_and_change      |   114|
+|3     |    C1   |ram_pin                   |    67|
+|4     |  C3     |ram_utilizator            |   116|
+|5     |  C4     |ram_bancomat              |   184|
+|6     |  C5     |extragere                 |    99|
+|7     |    C1   |intrare_cifra_4           |     9|
+|8     |    C2   |formare_numar_extragere   |    38|
+|9     |    C3   |convertor_zecimal_binar_5 |    22|
+|10    |  D1     |debouncer                 |    51|
+|11    |  D2     |debouncer_0               |     4|
+|12    |  D3     |debouncer_1               |     6|
+|13    |  D4     |debouncer_2               |     5|
+|14    |  D5     |debouncer_3               |     5|
+|15    |  c7     |depunere                  |    77|
+|16    |    C1   |intrare_cifra             |     5|
+|17    |    C2   |formare_numar             |    28|
+|18    |    C3   |convertor_zecimal_binar   |    19|
++------+---------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 659.555 ; gain = 449.895
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 52 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 659.555 ; gain = 151.285
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 659.555 ; gain = 449.895
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 236 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 165 instances were transformed.
+  LD => LDCE: 120 instances
+  LDC => LDCE: 33 instances
+  RAM16X1S => RAM32X1S (RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+84 Infos, 97 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 659.555 ; gain = 449.895
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Bohar Anamaria/Desktop/ATM_final_2/ATM_final_2.runs/synth_1/bancomat.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 659.555 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 14 08:03:46 2018...
